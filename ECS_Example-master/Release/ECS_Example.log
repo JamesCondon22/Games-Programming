@@ -1,0 +1,134 @@
+﻿  Path.cpp
+  TankAi.cpp
+src\AI\TankAi.cpp(113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+src\AI\TankAi.cpp(142): warning C4018: '<': signed/unsigned mismatch
+  Ai.cpp
+  Background.cpp
+  Display.cpp
+  Motion.cpp
+  Parent.cpp
+  PlayerControl.cpp
+  Position.cpp
+  Tank.cpp
+  Turret.cpp
+  Volume.cpp
+  Wall.cpp
+  EntityCreator.cpp
+c:\users\c00207200\desktop\ecs_example-master\include\entityx/Entity.h(582): warning C4291: 'void *operator new(std::size_t,void *) throw()': no matching operator delete found; memory will not be freed if initialization throws an exception
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h(86): note: see declaration of 'operator new'
+  c:\users\c00207200\desktop\ecs_example-master\include\entityx/Entity.h(866): note: see reference to function template instantiation 'entityx::ComponentHandle<Derived,entityx::EntityManager> entityx::EntityManager::assign<C,>(entityx::Entity::Id)' being compiled
+          with
+          [
+              Derived=Position,
+              C=Position
+          ]
+  src\EntityCreator.cpp(12): note: see reference to function template instantiation 'entityx::ComponentHandle<Derived,entityx::EntityManager> entityx::Entity::assign<Position,>(void)' being compiled
+          with
+          [
+              Derived=Position
+          ]
+c:\users\c00207200\desktop\ecs_example-master\include\entityx/Entity.h(582): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  c:\users\c00207200\desktop\ecs_example-master\include\entityx/Entity.h(866): note: see reference to function template instantiation 'entityx::ComponentHandle<Derived,entityx::EntityManager> entityx::EntityManager::assign<C,_Ty>(entityx::Entity::Id,_Ty &&)' being compiled
+          with
+          [
+              Derived=Motion,
+              C=Motion,
+              _Ty=int
+          ]
+  src\EntityCreator.cpp(28): note: see reference to function template instantiation 'entityx::ComponentHandle<Derived,entityx::EntityManager> entityx::Entity::assign<Motion,int>(int &&)' being compiled
+          with
+          [
+              Derived=Motion
+          ]
+  Game.cpp
+src\Game.cpp(7): warning C4244: 'initializing': conversion from 'double' to 'sf::Int32', possible loss of data
+  GameManager.cpp
+  KeyHandler.cpp
+  main.cpp
+  ResourcePath.cpp
+  ScreenSize.cpp
+  Compiling...
+  AiControlSystem.cpp
+  LevelSystem.cpp
+  MovementSystem.cpp
+src\systems\MovementSystem.cpp(21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  PlayerControlSystem.cpp
+  RenderSystem.cpp
+src\systems\RenderSystem.cpp(29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+src\systems\RenderSystem.cpp(38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+src\systems\RenderSystem.cpp(42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+src\systems\RenderSystem.cpp(55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  BTMath.cpp
+src\utils\BTMath.cpp(23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CollisionBox.cpp
+  LevelLoader.cpp
+libyaml-cppmdd.lib(parse.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(parse.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(memory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(memory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(node_data.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(node_data.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(parser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(parser.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(nodebuilder.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(nodebuilder.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(directives.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(directives.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(scanner.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(scanner.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(singledocparser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(singledocparser.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(regex_yaml.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(regex_yaml.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(stream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(stream.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(simplekey.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(simplekey.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(scantoken.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(scantoken.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(tag.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(tag.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(null.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(null.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(scanscalar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(scanscalar.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(scantag.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(scantag.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+libyaml-cppmdd.lib(exp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Path.obj
+libyaml-cppmdd.lib(exp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Path.obj
+MSVCRT.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+libyaml-cppmdd.lib(tag.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(scanscalar.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(scantag.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(exp.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(regex_yaml.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(stream.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(simplekey.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(scantoken.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(nodebuilder.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(directives.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(scanner.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(singledocparser.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(parse.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(memory.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(node_data.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(parser.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+libyaml-cppmdd.lib(tag.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(scanscalar.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(scantag.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(exp.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(regex_yaml.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(stream.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(simplekey.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(scantoken.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(nodebuilder.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(directives.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(scanner.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(singledocparser.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(parse.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(memory.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(node_data.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+libyaml-cppmdd.lib(parser.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+msvcrtd.lib(_init_.obj) : error LNK2001: unresolved external symbol __CrtDbgReport
+msvcrtd.lib(_init_.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+C:\Users\c00207200\Desktop\ECS_Example-master\Release\ECS_Example.exe : fatal error LNK1120: 4 unresolved externals
